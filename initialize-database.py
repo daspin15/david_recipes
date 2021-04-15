@@ -71,7 +71,7 @@ def initial_database():
     user = add_role('user')
 
     # add users
-    david = add_user('David', 'Aspin', 'david@david.com', 'abc123', 'admin')
+    mike = add_user('Mike', 'Colbert', 'mike@mike.com', 'abc123', 'admin')
 
     # add categories
     main = add_category('Main dishes')
@@ -81,7 +81,7 @@ def initial_database():
    
     # add recipe
     chicken_parmesean = add_recipe('Chicken Parmesean', 'Main dishes',
-                                   'chicken', 'cook it good', 'cook it real good', 'David', 'Aspin')
+                                   'chicken', 'cook it good', 'cook it real good', 'Mike', 'Colbert')
 
 
 def main():
